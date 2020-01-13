@@ -18,7 +18,7 @@ steps:
     echo Whatever
   displayName: 'Run a multi-line script'
 
-- script: hello.sh
+- script: echo hello.sh
   displayName: 'Say hi'
 
 - task: Bash@3
